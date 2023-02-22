@@ -6,12 +6,12 @@ export const profiles = [
   },
   {
     id: '2',
-    name: 'Felipe',
+    name: 'karenne',
     avatar: require('../assets/people/2.png')
   },
   {
     id: '3',
-    name: 'karenne',
+    name: 'Felipe',
     avatar: require('../assets/people/3.png')
   },
   {
