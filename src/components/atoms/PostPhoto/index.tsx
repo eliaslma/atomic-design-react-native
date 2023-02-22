@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from 'react-native';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 
 export function PostPhoto({ source }) {
     return (

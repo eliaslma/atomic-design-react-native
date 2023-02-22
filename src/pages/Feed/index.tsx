@@ -2,6 +2,7 @@ import React from 'react';
 import { profiles } from '../../utils/profiles';
 import { styles } from './styles';
 import { Posts } from '../../components/templates/Posts';
+import { posts } from '../../utils/posts';
 
 import {
     View,
@@ -20,6 +21,7 @@ import {
 export function Feed() {
     return (
         <View style={styles.container}>
+
             <View style={styles.header}>
                 <View style={styles.headerSide}>
                     <CameraIcon />
@@ -49,7 +51,7 @@ export function Feed() {
                 />
             </View>
 
-            <Posts />
+            <Posts data={posts} />
 
         </View>
     );

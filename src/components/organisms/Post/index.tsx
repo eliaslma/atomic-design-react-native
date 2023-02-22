@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 import { PostHeader } from '../../molecules/PostHeader';
 import { PostPhoto } from '../../atoms/PostPhoto';
 import { PostOptions } from '../../molecules/PostOptions';

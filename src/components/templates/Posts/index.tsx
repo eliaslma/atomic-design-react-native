@@ -1,12 +1,11 @@
-import { styles } from "../../../pages/Feed/styles";
+import { styles } from "./styles";
 import { FlatList } from "react-native";
-import { posts } from '../../../utils/posts';
 import { Post } from "../../organisms/Post";
 
-export function Posts() {
+export function Posts({data}) {
     return (
         <FlatList
-            data={posts}
+            data={data}
             style={styles.posts}
             showsVerticalScrollIndicator={false}
             keyExtractor={post => post.id}

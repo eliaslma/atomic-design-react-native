@@ -1,5 +1,5 @@
 import React from 'react';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 import { View } from 'react-native';
 import { SaveIcon } from '../../../global/styles/icons'
 import { ButtonIcons } from '../../atoms/ButtonIcons';

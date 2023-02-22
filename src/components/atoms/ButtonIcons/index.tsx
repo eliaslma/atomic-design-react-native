@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 import { SvgProps } from 'react-native-svg';
 
 interface Props{

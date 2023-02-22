@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 
 export function PostLiked({ likes }) {
     return (

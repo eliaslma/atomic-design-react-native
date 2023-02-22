@@ -1,5 +1,5 @@
 import React from 'react';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 import { View } from 'react-native';
 import { PostAvatar } from '../../atoms/PostAvatar';
 import { PostUsername } from '../../atoms/PostUsername';

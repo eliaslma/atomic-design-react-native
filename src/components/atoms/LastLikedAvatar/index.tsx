@@ -1,5 +1,5 @@
 import React from 'react';
-import { styles } from '../../../pages/Feed/styles';
+import { styles } from './styles';
 import { Image } from 'react-native';
 
 export function LastLikedAvatar({ source }) {
